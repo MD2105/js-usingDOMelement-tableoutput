@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="stylesheet.css" rel="stylesheet">
+        <meta charset="UTF-8">
+    </head>
+    <body id="userlist">
+        <br><br>
+        <p><b>Insert the Details of the Users in order to GET DATA of User.......</b></p>
+        <br>
+        <form  action="#" onsubmit="return setuserdata()">
+            <label for="username"><b>UserName :</b></label>
+            <input type="text" id="username" placeholder="Ex:JOHN" required><br><br>
+            <label for="email"><b>Email :</b></label>
+            <input type="email" id="email" placeholder="Ex:asb@123"><br><br>
+            <label for="password"><b>Password :</b></label>
+            <input type="password" id="password" required><br><br>
+            <label for="tel"><b>Phone Number :</b></label>
+            <input type="tel"  id="tel" placeholder="Enter Digits Only...." ><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p><b>Click on Following Button to obtain Table for the UserDetail.....</b></p>
+        <div>
+            <button>GET DATA</button>
+            <div id="table"></div>
+         </div>
+        <script src="script.js"></script>
+    </body>
+    </body>
+</html>

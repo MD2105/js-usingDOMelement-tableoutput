@@ -1,0 +1,38 @@
+#Index {
+    background-image: url('pic/bck.jpg');
+    background-size: cover;
+    background-color:black;
+}
+.navbar {
+    text-align: center;
+    padding:25px;
+    display: block;
+    background-color:black;
+}
+.navbar a:hover{
+    color:red;
+}
+.navbar a{
+    background-color: turquoise;
+    padding: 1%;
+    color: whitesmoke;
+    font-family: 16px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; 
+}
+#userlist{
+    background-color:rebeccapurple;
+    font-family: sans-serif;
+    font-size:large;
+    color: wheat;
+} 
+button a{
+    display: inline-block;
+}
+#table {
+    display: block;
+    margin:20px;
+}
+tr,th {
+    border: 2px solid wheat;
+    font-size: 18px;
+    padding: 4px;
+}
